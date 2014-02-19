@@ -1,0 +1,74 @@
+import java.util.Scanner;
+
+
+public class examen1parte2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("Ingrese el nombre del alumno: ");
+		Scanner mi_scannera = new Scanner (System.in);
+		String nombre1=mi_scannera.next();
+		System.out.println("Ingrese nota 1 de "+ nombre1);
+		Scanner mi_scanner1 = new Scanner (System.in);
+		int nota1=mi_scanner1.nextInt();
+		System.out.println("Ingrese nota 2 de "+ nombre1);
+		Scanner mi_scanner2 = new Scanner (System.in);
+		int nota2=mi_scanner2.nextInt();
+		System.out.println("Ingrese nota 3 de "+ nombre1);
+		Scanner mi_scanner3 = new Scanner (System.in);
+		int nota3=mi_scanner3.nextInt();
+		int nota4;
+		nota4 = ((nota1+nota2+nota3)/(3));
+		System.out.println("El promedio de es: " + nota4);
+		if(nota4>=60){
+            System.out.println("Esta Aprobado");
+        }else
+            System.out.println("Esta Reprobado");
+		
+		
+		System.out.println("Ingrese el nombre del alumno 2: ");
+		Scanner mi_scannerb = new Scanner (System.in);
+		String nombre2=mi_scannerb.next();
+		System.out.println("Ingrese nota 1 de "+ nombre2);
+		System.out.println("Ingrese nota 1: ");
+		Scanner mi_scanner5 = new Scanner (System.in);
+		int nota5=mi_scanner5.nextInt();
+		System.out.println("Ingrese nota 2 de "+ nombre2);
+		Scanner mi_scanner6 = new Scanner (System.in);
+		int nota6=mi_scanner6.nextInt();
+		System.out.println("Ingrese nota 3 de "+ nombre2);
+		Scanner mi_scanner7 = new Scanner (System.in);
+		int nota7=mi_scanner7.nextInt();
+		int nota8;
+		nota8 = ((nota5+nota6+nota7)/(3));
+		System.out.println("El promedio del alumno 2 es: " + nota4);
+		if(nota4>=60){
+            System.out.println("Esta Aprobado");
+        }else
+            System.out.println("Esta Reprobado");
+		
+		
+		System.out.println("Ingrese el nombre del alumno3: ");
+		Scanner mi_scannerc = new Scanner (System.in);
+		String nombre3=mi_scannerc.next();
+		System.out.println("Alumno1: ");
+		System.out.println("Ingrese nota 1 de "+ nombre3);
+		Scanner mi_scanner9 = new Scanner (System.in);
+		int nota9=mi_scanner9.nextInt();
+		System.out.println("Ingrese nota 2 de "+ nombre3);
+		Scanner mi_scanner10 = new Scanner (System.in);
+		int nota10=mi_scanner10.nextInt();
+		System.out.println("Ingrese nota 3 de "+ nombre3);
+		Scanner mi_scanner11 = new Scanner (System.in);
+		int nota11=mi_scanner11.nextInt();
+		int nota12;
+		nota12 = ((nota9+nota10+nota11)/(3));
+		System.out.println("El promedio del alumno 1 es: " + nota4);
+		if(nota4>=60){
+            System.out.println("Esta Aprobado");
+        }else
+            System.out.println("Esta Reprobado");
+		  
+	}
+
+}
