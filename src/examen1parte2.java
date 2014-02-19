@@ -41,8 +41,8 @@ public class examen1parte2 {
 		int nota7=mi_scanner7.nextInt();
 		int nota8;
 		nota8 = ((nota5+nota6+nota7)/(3));
-		System.out.println("El promedio del alumno 2 es: " + nota4);
-		if(nota4>=60){
+		System.out.println("El promedio del alumno 2 es: " + nota8);
+		if(nota8>=60){
             System.out.println("Esta Aprobado");
         }else
             System.out.println("Esta Reprobado");
@@ -63,8 +63,8 @@ public class examen1parte2 {
 		int nota11=mi_scanner11.nextInt();
 		int nota12;
 		nota12 = ((nota9+nota10+nota11)/(3));
-		System.out.println("El promedio del alumno 1 es: " + nota4);
-		if(nota4>=60){
+		System.out.println("El promedio del alumno 1 es: " + nota12);
+		if(nota12>=60){
             System.out.println("Esta Aprobado");
         }else
             System.out.println("Esta Reprobado");
